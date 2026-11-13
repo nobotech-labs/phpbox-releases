@@ -6,12 +6,12 @@
 
 [![Release](https://img.shields.io/github/v/release/Solayman/phpbox-releases?color=10b981&label=Release&logo=github)](https://github.com/Solayman/phpbox-releases/releases/latest)
 [![Download .deb (Linux v1.0.2)](https://img.shields.io/badge/Direct%20Download-.deb%20(Linux%20v1.0.2)-E95420?logo=ubuntu&logoColor=white)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb)
-[![Download .exe (Windows v1.0.3)](https://img.shields.io/badge/Direct%20Download-.exe%20(Windows%20v1.0.3)-0078D4?logo=windows&logoColor=white)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.3/Phpbox_1.0.3_x64-setup.exe)
+[![Download .exe (Windows v1.0.32)](https://img.shields.io/badge/Direct%20Download-.exe%20(Windows%20v1.0.3)-0078D4?logo=windows&logoColor=white)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe)
 [![Memory Footprint](https://img.shields.io/badge/Idle%20RAM-~150MB%20(Win)%20%7C%20~450MB%20(Linux)-06b6d4)](#-authentic-performance--hardware-benchmarks)
 [![Facebook](https://img.shields.io/badge/Facebook-Nobo%20Tech-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/NobotechLab)
 [![Publisher](https://img.shields.io/badge/Publisher-Nobo%20Tech-10b981)](https://nobotech.org)
 
-**[Official Website](https://nobotech.org/phpbox)** • **[Direct Windows v1.0.3 (.exe)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.3/Phpbox_1.0.3_x64-setup.exe)** • **[Direct Linux v1.0.2 (.deb)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb)** • **[Facebook Page](https://www.facebook.com/NobotechLab)** • **[Live Benchmarks](https://nobotech.org/benchmarks)**
+**[Official Website](https://nobotech.org/phpbox)** • **[Direct Windows v1.0.32 (.exe)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe)** • **[Direct Linux v1.0.2 (.deb)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb)** • **[Facebook Page](https://www.facebook.com/NobotechLab)** • **[Live Benchmarks](https://nobotech.org/benchmarks)**
 
 </div>
 
@@ -32,13 +32,13 @@ It delivers familiar, full-featured IDE workflows—including on-demand language
 
 ---
 
-## 📦 Official Binary Releases & Direct Downloads (Windows v1.0.3 · Linux v1.0.2)
+## 📦 Official Binary Releases & Direct Downloads (Windows v1.0.32 · Linux v1.0.2)
 
 Download official production packages directly for your operating system:
 
 | Operating System | Package Type | Architecture | Direct Download | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| 🪟 **Windows 10 / 11** (`v1.0.3`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.3 (.exe)**](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.3/Phpbox_1.0.3_x64-setup.exe) | `13ab44b41a54775bd7bc5e25630b035965281b2cfc012e9b287a9cbe544f2a98` |
+| 🪟 **Windows 10 / 11** (`v1.0.3`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.32 (.exe)**](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe) | `45bb81ef40f3febf2e3df89bcdbc9f028a51c136dea08c4162e916fddcee5ae4` |
 | 🐧 **Linux (Ubuntu / Debian / Mint)** (`v1.0.2`) | `.deb` (Debian Package) | 64-bit (`amd64`) | [📥 **Download Linux v1.0.2 (.deb)**](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb) | `494b7b93938ac62eac88da621a806dec88fb0bbc632360fc68c3674bd4416557` |
 
 > 🔗 For complete changelogs and previous versions, explore the [**Releases Hub**](https://github.com/Solayman/phpbox-releases/releases).
@@ -78,7 +78,7 @@ sudo apt install ./Phpbox_1.0.2_amd64.deb
 ---
 
 ### 🪟 Windows Installation (`v1.0.3`)
-1. Click to direct download [`Phpbox_1.0.3_x64-setup.exe`](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.3/Phpbox_1.0.3_x64-setup.exe) (signature sidecar: [`Phpbox_1.0.3_x64-setup.exe.sig`](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.3/Phpbox_1.0.3_x64-setup.exe.sig)).
+1. Click to direct download [`Phpbox_1.0.32_x64-setup.exe`](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe) (signature sidecar: [`Phpbox_1.0.32_x64-setup.exe.sig`](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe.sig)).
 2. Run the installer and follow the guided setup (if Windows SmartScreen prompts "Unknown Publisher", click **More info → Run anyway**).
 3. *Update Verification:* In-app updates are cryptographically verified via Ed25519 `.exe.sig` signatures and published SHA-256 checksums.
 
@@ -129,7 +129,7 @@ Transition seamlessly without losing muscle memory:
 ## 🔒 Security, Integrity & Verification
 
 Every official Phpbox binary package is verified and authenticated:
-- **Cryptographic Release Signing**: Official installers ship with an Ed25519 `.sig` sidecar (`Phpbox_1.0.3_x64-setup.exe.sig`), verified in-app against the pinned release public key prior to update installation.
+- **Cryptographic Release Signing**: Official installers ship with an Ed25519 `.sig` sidecar (`Phpbox_1.0.32_x64-setup.exe.sig`), verified in-app against the pinned release public key prior to update installation.
 - **Dual-Verification Endpoint**: Built-in update client verifies both installers and remote discovery metadata via `console.nobotech.org` and Ed25519 signatures.
 
 ### Verifying SHA-256 Checksums
@@ -142,7 +142,7 @@ sha256sum Phpbox_1.0.2_amd64.deb
 
 **Windows (PowerShell):**
 ```powershell
-Get-FileHash -Path "Phpbox_1.0.3_x64-setup.exe" -Algorithm SHA256
+Get-FileHash -Path "Phpbox_1.0.32_x64-setup.exe" -Algorithm SHA256
 # Expected: 13AB44B41A54775BD7BC5E25630B035965281B2CFC012E9B287A9CBE544F2A98
 ```
 
