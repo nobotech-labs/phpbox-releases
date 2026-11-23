@@ -4,14 +4,14 @@
 
 ### The Lightweight, High-Performance Desktop Code Editor for PHP & Laravel Projects
 
-[![Release](https://img.shields.io/github/v/release/Solayman/phpbox-releases?color=10b981&label=Release&logo=github)](https://github.com/Solayman/phpbox-releases/releases/latest)
-[![Download .deb (Linux v1.0.2)](https://img.shields.io/badge/Direct%20Download-.deb%20(Linux%20v1.0.2)-E95420?logo=ubuntu&logoColor=white)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb)
-[![Download .exe (Windows v1.0.32)](https://img.shields.io/badge/Direct%20Download-.exe%20(Windows%20v1.0.3)-0078D4?logo=windows&logoColor=white)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe)
+[![Release](https://img.shields.io/github/v/release/nobotech-labs/phpbox-releases?color=10b981&label=Release&logo=github)](https://github.com/nobotech-labs/phpbox-releases/releases/latest)
+[![Download .deb (Linux v1.0.33)](https://img.shields.io/badge/Direct%20Download-.deb%20(Linux%20v1.0.33)-E95420?logo=ubuntu&logoColor=white)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb)
+[![Download .exe (Windows v1.0.35)](https://img.shields.io/badge/Direct%20Download-.exe%20(Windows%20v1.0.35)-0078D4?logo=windows&logoColor=white)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe)
 [![Memory Footprint](https://img.shields.io/badge/Idle%20RAM-~150MB%20(Win)%20%7C%20~450MB%20(Linux)-06b6d4)](#-authentic-performance--hardware-benchmarks)
 [![Facebook](https://img.shields.io/badge/Facebook-Nobo%20Tech-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/NobotechLab)
 [![Publisher](https://img.shields.io/badge/Publisher-Nobo%20Tech-10b981)](https://nobotech.org)
 
-**[Official Website](https://nobotech.org/phpbox)** • **[Direct Windows v1.0.32 (.exe)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe)** • **[Direct Linux v1.0.2 (.deb)](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb)** • **[Facebook Page](https://www.facebook.com/NobotechLab)** • **[Live Benchmarks](https://nobotech.org/benchmarks)**
+**[Official Website](https://nobotech.org/phpbox)** • **[Direct Windows v1.0.35 (.exe)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe)** • **[Direct Linux v1.0.33 (.deb)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb)** • **[Facebook Page](https://www.facebook.com/NobotechLab)** • **[Live Benchmarks](https://nobotech.org/benchmarks)**
 
 </div>
 
@@ -32,16 +32,19 @@ It delivers familiar, full-featured IDE workflows—including on-demand language
 
 ---
 
-## 📦 Official Binary Releases & Direct Downloads (Windows v1.0.32 · Linux v1.0.2)
+## 📦 Official Binary Releases & Direct Downloads (Windows v1.0.35 · Linux v1.0.33)
 
 Download official production packages directly for your operating system:
 
 | Operating System | Package Type | Architecture | Direct Download | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| 🪟 **Windows 10 / 11** (`v1.0.3`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.32 (.exe)**](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe) | `45bb81ef40f3febf2e3df89bcdbc9f028a51c136dea08c4162e916fddcee5ae4` |
-| 🐧 **Linux (Ubuntu / Debian / Mint)** (`v1.0.2`) | `.deb` (Debian Package) | 64-bit (`amd64`) | [📥 **Download Linux v1.0.2 (.deb)**](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb) | `494b7b93938ac62eac88da621a806dec88fb0bbc632360fc68c3674bd4416557` |
+| 🪟 **Windows 10 / 11** (`v1.0.35`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.35 (.exe)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) | `abd6ad8983e05898880cde4b1e06980e7b2b11ec28fb2768325bed7ed8c846be` |
+| 🐧 **Linux (Ubuntu / Debian / Mint)** (`v1.0.33`) | `.deb` (Debian Package) | 64-bit (`amd64`) | [📥 **Download Linux v1.0.33 (.deb)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb) | `4588d41449c619dd77ed712493eaf78f97b67bfe65e952a4885229781ff70392` |
 
-> 🔗 For complete changelogs and previous versions, explore the [**Releases Hub**](https://github.com/Solayman/phpbox-releases/releases).
+> 🔗 **Permanent Dynamic Endpoints (Always Directs to Latest Platform Version):**
+> - **Windows Direct:** [https://nobotech.org/download/windows](https://nobotech.org/download/windows) (HTTP 302 → latest `.exe`)
+> - **Linux Direct:** [https://nobotech.org/download/linux](https://nobotech.org/download/linux) (HTTP 302 → latest `.deb`)
+> - **Complete Release Archive:** [**Releases Hub**](https://github.com/nobotech-labs/phpbox-releases/releases)
 
 ---
 
@@ -54,10 +57,10 @@ You can download and install the official `.deb` package directly from your Linu
 #### Method 1: Using `wget`
 ```bash
 # 1. Direct download the latest .deb package
-wget https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb
+wget https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb
 
 # 2. Install Phpbox
-sudo dpkg -i Phpbox_1.0.2_amd64.deb
+sudo dpkg -i Phpbox_1.0.33_amd64.deb
 
 # 3. Resolve any desktop dependencies (e.g. WebKit2GTK) if prompted
 sudo apt-get install -f
@@ -69,16 +72,16 @@ phpbox
 #### Method 2: Using `curl`
 ```bash
 # 1. Direct download with curl
-curl -LO https://github.com/Solayman/phpbox-releases/releases/download/v1.0.2/Phpbox_1.0.2_amd64.deb
+curl -LO https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb
 
 # 2. Install with apt (auto-resolves dependencies)
-sudo apt install ./Phpbox_1.0.2_amd64.deb
+sudo apt install ./Phpbox_1.0.33_amd64.deb
 ```
 
 ---
 
-### 🪟 Windows Installation (`v1.0.3`)
-1. Click to direct download [`Phpbox_1.0.32_x64-setup.exe`](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe) (signature sidecar: [`Phpbox_1.0.32_x64-setup.exe.sig`](https://github.com/Solayman/phpbox-releases/releases/download/v1.0.32/Phpbox_1.0.32_x64-setup.exe.sig)).
+### 🪟 Windows Installation (`v1.0.35`)
+1. Click to direct download [`Phpbox_1.0.35_x64-setup.exe`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) or use the permanent endpoint [nobotech.org/download/windows](https://nobotech.org/download/windows) (signature sidecar: [`Phpbox_1.0.35_x64-setup.exe.sig`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe.sig)).
 2. Run the installer and follow the guided setup (if Windows SmartScreen prompts "Unknown Publisher", click **More info → Run anyway**).
 3. *Update Verification:* In-app updates are cryptographically verified via Ed25519 `.exe.sig` signatures and published SHA-256 checksums.
 
@@ -136,14 +139,14 @@ Every official Phpbox binary package is verified and authenticated:
 
 **Linux (Bash):**
 ```bash
-sha256sum Phpbox_1.0.2_amd64.deb
-# Expected: 494b7b93938ac62eac88da621a806dec88fb0bbc632360fc68c3674bd4416557  Phpbox_1.0.2_amd64.deb
+sha256sum Phpbox_1.0.33_amd64.deb
+# Expected: 4588d41449c619dd77ed712493eaf78f97b67bfe65e952a4885229781ff70392  Phpbox_1.0.33_amd64.deb
 ```
 
 **Windows (PowerShell):**
 ```powershell
-Get-FileHash -Path "Phpbox_1.0.32_x64-setup.exe" -Algorithm SHA256
-# Expected: 13AB44B41A54775BD7BC5E25630B035965281B2CFC012E9B287A9CBE544F2A98
+Get-FileHash -Path "Phpbox_1.0.35_x64-setup.exe" -Algorithm SHA256
+# Expected: abd6ad8983e05898880cde4b1e06980e7b2b11ec28fb2768325bed7ed8c846be
 ```
 
 ---
@@ -158,7 +161,7 @@ Connect with the Nobo Tech team, follow live release announcements, and access o
 | 🏢 **Nobo Tech Systems** | Parent engineering lab, architectural philosophy & full ecosystem | [**nobotech.org**](https://nobotech.org) |
 | 📢 **Official Facebook Page** | Live release announcements, engineering blogs & community news | [**Nobo Tech on Facebook**](https://www.facebook.com/NobotechLab) |
 | ⚡ **Hardware Benchmarks** | Authentic RAM and latency metrics from production hardware | [**nobotech.org/benchmarks**](https://nobotech.org/benchmarks) |
-| 🐛 **Issue & Bug Tracker** | Report defects, request capabilities & track ongoing fixes | [**GitHub Issues**](https://github.com/Solayman/phpbox-releases/issues) |
+| 🐛 **Issue & Bug Tracker** | Report defects, request capabilities & track ongoing fixes | [**GitHub Issues**](https://github.com/nobotech-labs/phpbox-releases/issues) |
 | 🛡️ **Security Inquiries** | Responsible security disclosure and verification | [`security@nobotech.org`](mailto:security@nobotech.org) |
 
 ---
@@ -170,7 +173,7 @@ Connect with the Nobo Tech team, follow live release announcements, and access o
 **Phpbox Desktop IDE** is engineered and maintained by **Solayman Ali** at **[Nobo Tech](https://nobotech.org)**.  
 *Building ultra-lightweight tools that boot in microseconds and respect system resources.*
 
-[Official Website](https://nobotech.org/phpbox) • [Facebook Community](https://www.facebook.com/NobotechLab) • [Releases Hub](https://github.com/Solayman/phpbox-releases/releases) • [Issue Tracker](https://github.com/Solayman/phpbox-releases/issues)
+[Official Website](https://nobotech.org/phpbox) • [Facebook Community](https://www.facebook.com/NobotechLab) • [Releases Hub](https://github.com/nobotech-labs/phpbox-releases/releases) • [Issue Tracker](https://github.com/nobotech-labs/phpbox-releases/issues)
 
 <br/>
 
