@@ -6,12 +6,12 @@
 
 [![Release](https://img.shields.io/github/v/release/nobotech-labs/phpbox-releases?color=10b981&label=Release&logo=github)](https://github.com/nobotech-labs/phpbox-releases/releases/latest)
 [![Download .deb (Linux v1.0.33)](https://img.shields.io/badge/Direct%20Download-.deb%20(Linux%20v1.0.33)-E95420?logo=ubuntu&logoColor=white)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb)
-[![Download .exe (Windows v1.0.35)](https://img.shields.io/badge/Direct%20Download-.exe%20(Windows%20v1.0.35)-0078D4?logo=windows&logoColor=white)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe)
+[![Download .exe (Windows v1.0.36)](https://img.shields.io/badge/Direct%20Download-.exe%20(Windows%20v1.0.36)-0078D4?logo=windows&logoColor=white)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.36/Phpbox_1.0.36_x64-setup.exe)
 [![Memory Footprint](https://img.shields.io/badge/Idle%20RAM-~150MB%20(Win)%20%7C%20~450MB%20(Linux)-06b6d4)](#-authentic-performance--hardware-benchmarks)
 [![Facebook](https://img.shields.io/badge/Facebook-Nobo%20Tech-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/NobotechLab)
 [![Publisher](https://img.shields.io/badge/Publisher-Nobo%20Tech-10b981)](https://nobotech.org)
 
-**[Official Website](https://nobotech.org/phpbox)** • **[Direct Windows v1.0.35 (.exe)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe)** • **[Direct Linux v1.0.33 (.deb)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb)** • **[Facebook Page](https://www.facebook.com/NobotechLab)** • **[Live Benchmarks](https://nobotech.org/benchmarks)**
+**[Official Website](https://nobotech.org/phpbox)** • **[Direct Windows v1.0.36 (.exe)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.36/Phpbox_1.0.36_x64-setup.exe)** • **[Direct Linux v1.0.33 (.deb)](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb)** • **[Facebook Page](https://www.facebook.com/NobotechLab)** • **[Live Benchmarks](https://nobotech.org/benchmarks)**
 
 </div>
 
@@ -32,13 +32,13 @@ It delivers familiar, full-featured IDE workflows—including on-demand language
 
 ---
 
-## 📦 Official Binary Releases & Direct Downloads (Windows v1.0.35 · Linux v1.0.33)
+## 📦 Official Binary Releases & Direct Downloads (Windows v1.0.36 · Linux v1.0.33)
 
 Download official production packages directly for your operating system:
 
 | Operating System | Package Type | Architecture | Direct Download | SHA-256 Checksum |
 | :--- | :--- | :--- | :--- | :--- |
-| 🪟 **Windows 10 / 11** (`v1.0.35`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.35 (.exe)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) | `abd6ad8983e05898880cde4b1e06980e7b2b11ec28fb2768325bed7ed8c846be` |
+| 🪟 **Windows 10 / 11** (`v1.0.36`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.36 (.exe)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.36/Phpbox_1.0.36_x64-setup.exe) | `e08417e4d06668e8fe61d0aaa9fbf706dd40247507a50686039e9598e9940812` |
 | 🐧 **Linux (Ubuntu / Debian / Mint)** (`v1.0.33`) | `.deb` (Debian Package) | 64-bit (`amd64`) | [📥 **Download Linux v1.0.33 (.deb)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb) | `4588d41449c619dd77ed712493eaf78f97b67bfe65e952a4885229781ff70392` |
 
 > 🔗 For complete changelogs and previous versions, explore the [**Releases Hub**](https://github.com/nobotech-labs/phpbox-releases/releases).
@@ -77,8 +77,8 @@ sudo apt install ./Phpbox_1.0.33_amd64.deb
 
 ---
 
-### 🪟 Windows Installation (`v1.0.35`)
-1. Click to direct download [`Phpbox_1.0.35_x64-setup.exe`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) (signature sidecar: [`Phpbox_1.0.35_x64-setup.exe.sig`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe.sig)).
+### 🪟 Windows Installation (`v1.0.36`)
+1. Click to direct download [`Phpbox_1.0.36_x64-setup.exe`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.36/Phpbox_1.0.36_x64-setup.exe) (signature sidecar: [`Phpbox_1.0.36_x64-setup.exe.sig`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.36/Phpbox_1.0.36_x64-setup.exe.sig)).
 2. Run the installer and follow the guided setup (if Windows SmartScreen prompts "Unknown Publisher", click **More info → Run anyway**).
 3. *Update Verification:* In-app updates are cryptographically verified via Ed25519 `.exe.sig` signatures and published SHA-256 checksums.
 
@@ -142,8 +142,8 @@ sha256sum Phpbox_1.0.33_amd64.deb
 
 **Windows (PowerShell):**
 ```powershell
-Get-FileHash -Path "Phpbox_1.0.35_x64-setup.exe" -Algorithm SHA256
-# Expected: abd6ad8983e05898880cde4b1e06980e7b2b11ec28fb2768325bed7ed8c846be
+Get-FileHash -Path "Phpbox_1.0.36_x64-setup.exe" -Algorithm SHA256
+# Expected: e08417e4d06668e8fe61d0aaa9fbf706dd40247507a50686039e9598e9940812
 ```
 
 ---
