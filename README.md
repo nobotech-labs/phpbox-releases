@@ -45,6 +45,9 @@ Download official production packages directly for your operating system:
 > - **Windows Direct:** [https://nobotech.org/download/windows](https://nobotech.org/download/windows) (HTTP 302 → latest `.exe`)
 > - **Linux Direct:** [https://nobotech.org/download/linux](https://nobotech.org/download/linux) (HTTP 302 → latest `.deb`)
 > - **Complete Release Archive:** [**Releases Hub**](https://github.com/nobotech-labs/phpbox-releases/releases)
+> - **Windows Direct:** [https://nobotech.org/download/windows](https://nobotech.org/download/windows) (HTTP 302 → latest `.exe`)
+> - **Linux Direct:** [https://nobotech.org/download/linux](https://nobotech.org/download/linux) (HTTP 302 → latest `.deb`)
+> - **Complete Release Archive:** [**Releases Hub**](https://github.com/nobotech-labs/phpbox-releases/releases)
 
 ---
 
