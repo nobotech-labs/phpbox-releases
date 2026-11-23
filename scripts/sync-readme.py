@@ -134,18 +134,13 @@ def update_readme(readme_path, win, linux):
         content
     )
 
-    # 4. Update the Downloads Table and dynamic endpoints block
-    table_pattern = r'(\| Operating System \| Package Type \| Architecture \| Direct Download \| SHA-256 Checksum \|\r?\n\| :--- \| :--- \| :--- \| :--- \| :--- \|\r?\n)(.+?\r?\n)(.+?\r?\n)(\r?\n> [^\n]+\r?\n)*'
+    # 4. Update the Downloads Table and clean releases note
+    table_pattern = r'(\| Operating System \| Package Type \| Architecture \| Direct Download \| SHA-256 Checksum \|\r?\n\| :--- \| :--- \| :--- \| :--- \| :--- \|\r?\n)(.+?\r?\n)(.+?\r?\n)(.*?(?=\r?\n---|\r?\n## 🚀))'
     win_row = f'| 🪟 **Windows 10 / 11** (`v{win_ver}`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v{win_ver} (.exe)**]({win_url}) | `{win_sha}` |\n'
     linux_row = f'| 🐧 **Linux (Ubuntu / Debian / Mint)** (`v{linux_ver}`) | `.deb` (Debian Package) | 64-bit (`amd64`) | [📥 **Download Linux v{linux_ver} (.deb)**]({linux_url}) | `{linux_sha}` |\n'
-    dynamic_note = (
-        f'\n> 🔗 **Permanent Dynamic Endpoints (Always Directs to Latest Platform Version):**\n'
-        f'> - **Windows Direct:** [https://nobotech.org/download/windows](https://nobotech.org/download/windows) (HTTP 302 → latest `.exe`)\n'
-        f'> - **Linux Direct:** [https://nobotech.org/download/linux](https://nobotech.org/download/linux) (HTTP 302 → latest `.deb`)\n'
-        f'> - **Complete Release Archive:** [**Releases Hub**](https://github.com/{REPO}/releases)\n'
-    )
+    releases_note = f'\n> 🔗 For complete changelogs and previous versions, explore the [**Releases Hub**](https://github.com/{REPO}/releases).\n'
     
-    content = re.sub(table_pattern, f'\\g<1>{win_row}{linux_row}{dynamic_note}', content)
+    content = re.sub(table_pattern, f'\\g<1>{win_row}{linux_row}{releases_note}', content, flags=re.DOTALL)
 
     # 5. Update Linux installation commands
     # wget command
@@ -174,7 +169,7 @@ def update_readme(readme_path, win, linux):
     # 6. Update Windows installation guide
     content = re.sub(
         r'### 🪟 Windows Installation[^\n]*\r?\n[0-9]+\. Click to direct download [^\n]+',
-        f'### 🪟 Windows Installation (`v{win_ver}`)\n1. Click to direct download [`{win_file}`]({win_url}) or use the permanent endpoint [nobotech.org/download/windows](https://nobotech.org/download/windows) (signature sidecar: [`{win_file}.sig`]({win_url}.sig)).',
+        f'### 🪟 Windows Installation (`v{win_ver}`)\n1. Click to direct download [`{win_file}`]({win_url}) (signature sidecar: [`{win_file}.sig`]({win_url}.sig)).',
         content
     )
 
@@ -190,7 +185,8 @@ def update_readme(readme_path, win, linux):
         content
     )
 
-    # 8. Replace any remaining Solayman/phpbox-releases links with nobotech-labs/phpbox-releases
+    # 8. Clean up any accidental duplicate blocks or invalid URLs
+    content = re.sub(r'> 🔗 \*\*Permanent Dynamic Endpoints[^\n]*\n(> - [^\n]*\n)*', '', content)
     content = content.replace("github.com/Solayman/phpbox-releases", f"github.com/{REPO}")
 
     with open(readme_path, "w", encoding="utf-8") as f:

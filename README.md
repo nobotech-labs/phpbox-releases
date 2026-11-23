@@ -41,10 +41,7 @@ Download official production packages directly for your operating system:
 | 🪟 **Windows 10 / 11** (`v1.0.35`) | `.exe` (NSIS Installer) | 64-bit (`x64`) | [📥 **Download Windows v1.0.35 (.exe)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) | `abd6ad8983e05898880cde4b1e06980e7b2b11ec28fb2768325bed7ed8c846be` |
 | 🐧 **Linux (Ubuntu / Debian / Mint)** (`v1.0.33`) | `.deb` (Debian Package) | 64-bit (`amd64`) | [📥 **Download Linux v1.0.33 (.deb)**](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.33/Phpbox_1.0.33_amd64.deb) | `4588d41449c619dd77ed712493eaf78f97b67bfe65e952a4885229781ff70392` |
 
-> 🔗 **Permanent Dynamic Endpoints (Always Directs to Latest Platform Version):**
-> - **Windows Direct:** [https://nobotech.org/download/windows](https://nobotech.org/download/windows) (HTTP 302 → latest `.exe`)
-> - **Linux Direct:** [https://nobotech.org/download/linux](https://nobotech.org/download/linux) (HTTP 302 → latest `.deb`)
-> - **Complete Release Archive:** [**Releases Hub**](https://github.com/nobotech-labs/phpbox-releases/releases)
+> 🔗 For complete changelogs and previous versions, explore the [**Releases Hub**](https://github.com/nobotech-labs/phpbox-releases/releases).
 
 ---
 
@@ -81,7 +78,7 @@ sudo apt install ./Phpbox_1.0.33_amd64.deb
 ---
 
 ### 🪟 Windows Installation (`v1.0.35`)
-1. Click to direct download [`Phpbox_1.0.35_x64-setup.exe`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) or use the permanent endpoint [nobotech.org/download/windows](https://nobotech.org/download/windows) (signature sidecar: [`Phpbox_1.0.35_x64-setup.exe.sig`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe.sig)).
+1. Click to direct download [`Phpbox_1.0.35_x64-setup.exe`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe) (signature sidecar: [`Phpbox_1.0.35_x64-setup.exe.sig`](https://github.com/nobotech-labs/phpbox-releases/releases/download/v1.0.35/Phpbox_1.0.35_x64-setup.exe.sig)).
 2. Run the installer and follow the guided setup (if Windows SmartScreen prompts "Unknown Publisher", click **More info → Run anyway**).
 3. *Update Verification:* In-app updates are cryptographically verified via Ed25519 `.exe.sig` signatures and published SHA-256 checksums.
 
